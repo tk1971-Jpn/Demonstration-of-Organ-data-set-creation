@@ -62,10 +62,10 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 3. Copy the script from the file "Slider on Blender (foot to head > axial) for Blender ver 4.3.2.ipynb" available at [https://github.com/tk1971-Jpn/Slider-viewer-in-Blender](https://github.com/tk1971-Jpn/Slider-viewer-in-Blender) and paste it into Blender.
 4. Substitute the values obtained in steps 1-3 into the script using the following assignments:
 
-- `pixel_pitch`: The second value of "pixel pitch"  
-- `pixel`: The third value of "size of 3D array"  
-- `ax_slide_number`: The value of "Number of files"  
-- `ax_slide_distance`: The value of "slice distance"
+- `pixel_pitch`: The second value of "pixel pitch"  (0.810547)
+- `pixel`: The third value of "size of 3D array" (512)  
+- `ax_slide_number`: The value of "Number of files"  (591)
+- `ax_slide_distance`: The value of "slice distance" (1.25)
 
 5. Assign the directory of the folder where the MPR images are stored (containing subfolders named A, C, and S) to `path_JPEG`.
 6. When you run the script, an "Image Slider" tab will appear in the sidebar of the 3D viewport, allowing you to move the sliders to display the desired image in each direction.
