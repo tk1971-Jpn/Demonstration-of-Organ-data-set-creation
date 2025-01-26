@@ -1,5 +1,9 @@
 # Demonstration-of-Organ-data-set-creation
 
+<img width="578" alt="organ set" src="https://github.com/user-attachments/assets/6287971c-4bb6-41d3-b34c-b8f3e7b5d739" />  
+
+(**Note:** This figure shows organ data that has been colored and repaired. Additionally, organs that could not be automatically extracted were manually created and added.)
+
 This document explains the procedure for importing and displaying contrast-enhanced CT MPR images in Blender, as well as editing organ surface data in STL format that was automatically extracted using 3D Slicer. A demonstration of this workflow will be conducted using data obtained from TCIA (The Cancer Imaging Archive).
 
 **Prepare**  
