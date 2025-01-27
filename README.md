@@ -79,9 +79,11 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
   
 **4. Importing Organ STL Data into Blenders**
 
-1. Create another text data block.
-2. Copy the script from the "import organ STL ver3" file available at [https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender](https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender) and paste it into Blender's text data block.
-3. When you run the script, the organ's STL data will be imported.　However, the default movement is set to 0, causing a misalignment with the CT.　In most cases, the misalignment occurs only along the Y-axis.
+(You need to enable the Import-Export STL files add-on in Blender. Open Blender Preferences, go to Get-Extensions, install it, and enable the add-on. After installation, it will appear as **STL format (legacy)** in the Add-ons section.)
+
+1. Create another text data block in the Scripting mode.
+2. Copy the script from the "Import organ STL into Blender" file available at [https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender](https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender) and paste it into Blender's text data block.
+3. When you run the script, the organ's STL data will be imported. However, the default movement is set to 0, causing a misalignment with the CT.　In most cases, the misalignment occurs only along the Y-axis.
 4. Select an organ, such as the liver, which is easier to adjust, and move it to correct its position. Record the movement distances.
 5. After that, delete all imported STL data (press **A** to select all and then press **X** to delete everything). Assign the recorded movement distances to `x_move`, `y_move`, and `z_move` in the script, and run the script again. This will place all organs in their correct positions.
 
