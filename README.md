@@ -26,7 +26,7 @@ Click the **Cart** button at the top of the screen and proceed with the download
 
 **1. Converting DICOM data to MPR images in JPEG format**  
 
-1. Download the Python script from [https://github.com/tk1971-Jpn/DICOM-to-JPEG](https://github.com/tk1971-Jpn/DICOM-to-JPEG) and run it on Jupyter Lab.  
+1. Download the Python script from [https://github.com/tk1971-Jpn/DICOM-to-JPEG](https://github.com/tk1971-Jpn/DICOM-to-JPEG) and run it on Jupyter Notebook.  
 2. Assign the path of the first file in the DICOM data to `path_ct`. Specify the directory to save the generated MPR images in `storage_path`.  
 
 <img width="612" alt="set file path" src="https://github.com/user-attachments/assets/e62bc9c3-328f-40cf-bfad-60c9b696c21c" />
