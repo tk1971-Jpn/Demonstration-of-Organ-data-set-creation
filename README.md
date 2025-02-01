@@ -76,6 +76,7 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 
 <img width="612" alt="slider" src="https://github.com/user-attachments/assets/2fb91867-bbdf-4f61-89af-1da5f7777a51" />
 
+
   
 **4. Importing Organ STL Data into Blenders**
 
