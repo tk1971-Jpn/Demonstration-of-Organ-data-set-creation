@@ -63,8 +63,8 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 
 1. Launch Blender
 2. Select the Scripting mode and click the "New Text" button (the icon with two overlapping documents) to enable the creation of a new script.
-3. Copy the script from the file "Slider on Blender (foot to head > axial) for Blender ver 4.3.2.ipynb" available at [https://github.com/tk1971-Jpn/Slider-viewer-in-Blender](https://github.com/tk1971-Jpn/Slider-viewer-in-Blender) and paste it into Blender.
-4. Substitute the values obtained in steps 1-3 into the script using the following assignments:
+3. Copy the script from the file **foot to head for Blender ver 4.3.2** available at [https://github.com/tk1971-Jpn/Slider-viewer-in-Blender](https://github.com/tk1971-Jpn/Slider-viewer-in-Blender) and paste it into Blender.
+4. Substitute the values obtained in steps **1**-3 into the script using the following assignments:
 
 - `pixel_pitch`: The second value of "pixel pitch"  (0.810547)
 - `pixel`: The third value of "size of 3D array" (512)  
