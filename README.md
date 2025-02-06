@@ -93,6 +93,7 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 
 <img width="612" alt="imported organs" src="https://github.com/user-attachments/assets/8675b0e6-bb0e-4f74-a816-19d1e09942ee" />
 
+**option:** To reduce the file size, copy and paste `Remesh` file into Blender's script mode and remesh all objects at once. (The default voxel size is 3.)
 
 
 
