@@ -29,6 +29,10 @@ Click the **Cart** button at the top of the screen and proceed with the download
 1. Download the Python script from [https://github.com/tk1971-Jpn/DICOM-to-JPEG](https://github.com/tk1971-Jpn/DICOM-to-JPEG) and run it on Jupyter Notebook.  
 2. Assign the path of the first file in the DICOM data to `path_ct`. Specify the directory to save the generated MPR images in `storage_path`.  
 
+**Note:**  When using a Windows PC, a SyntaxError (unicode error) related to the path can be resolved by adding `r` at the beginning of the path.  
+`NG` path = "C:\Users\myname\Documents\file.txt"  
+`OK` path = r"C:\Users\myname\Documents\file.txt" 
+
 <img width="612" alt="set file path" src="https://github.com/user-attachments/assets/0790db1a-baac-4168-9085-0cddd3372436" />
 
 3. Run cells 1 to 3 and take note of the information obtained along the way.
@@ -73,7 +77,12 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 - `ax_slide_number`: The value of `Number of files`  (591)
 - `ax_slide_distance`: The value of `slice distance` (1.25)
 
-5. Assign the directory of the folder where the MPR images are stored (containing subfolders named A, C, and S) to `path_JPEG`.
+5. Assign the directory of the folder where the MPR images are stored (containing subfolders named A, C, and S) to `folder_path`.  
+
+**Note:**  When using a Windows PC, a SyntaxError (unicode error) related to the path can be resolved by adding `r` at the beginning of the path.  
+`NG` path = "C:\Users\myname\Documents\file.txt"  
+`OK` path = r"C:\Users\myname\Documents\file.txt" 
+
 6. When you run the script, an "Image Slider" tab will appear in the sidebar of the 3D viewport, allowing you to move the sliders to display the desired image in each direction.
 
 
@@ -86,7 +95,10 @@ Click the arrow-like button at the top-right corner of each **R**, **G**, and **
 
 1. Create another text data block in the Scripting mode.
 2. Copy the script from the "Import organ STL into Blender" file available at [https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender](https://github.com/tk1971-Jpn/Import-organ-STL-data-into-Blender) and paste it into Blender's text data block.
-3. In the script, specify the directory where the STL data is stored in the `folder_path` variable.
+3. In the script, specify the directory where the STL data is stored in the `folder_path` variable.  
+**Note:**  When using a Windows PC, a SyntaxError (unicode error) related to the path can be resolved by adding `r` at the beginning of the path.  
+`NG` path = "C:\Users\myname\Documents\file.txt"  
+`OK` path = r"C:\Users\myname\Documents\file.txt" 
 4. When you run the script, the organ's STL data will be imported. However, the default movement is set to 0, causing a misalignment with the CT.  
 5. Select an organ, such as the liver, which is easier to adjust, and move it to correct its position. Record the movement distances.
 6. After that, delete all imported STL data (press **A** to select all and then press **X** to delete everything). Assign the recorded movement distances to `x_move`, `y_move`, and `z_move` in the script, and run the script again. This will place all organs in their correct positions.
